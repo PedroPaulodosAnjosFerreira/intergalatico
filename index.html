@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você é um explorador espacial em uma missão para descobrir o destino de uma antiga civilização que desapareceu misteriosamente. Sua jornada o levará a diferentes planetas, cada um com desafios únicos e decisões a serem tomadas. Prepare-se para fazer escolhas que determinarão o seu destino!
+            Você recebe uma transmissão enigmática de um planeta inexplorado, Lurath-9. O que você faz?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Ignorar a mensagem e seguir seu caminho</button>
+            <button class="btn-proximo" data-proximo="2">Rastrear a origem da transmissão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide continuar sua missão. Contudo, seu sistema de navegação falha e você se perde no espaço. O que fazer?
+            </p>
+            <button class="btn-proximo" data-proximo="3">Tentar reparar a nave</button>
+            <button class="btn-proximo" data-proximo="4">Enviar um sinal de socorro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você rastreia a transmissão e descobre um sinal de SOS. Ao se aproximar, sua nave é atacada por piratas espaciais! O que você faz?
+
+            </p>
+            <button class="btn-proximo" data-proximo="5">Lutar contra os piratas</button>
+            <button class="btn-proximo" data-proximo="6">Tentar negociar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Enquanto tenta consertar a nave, você descobre um dispositivo alienígena. O que você faz?
+
+
+        </p>
+            <button class="btn-proximo" data-proximo="7">Ativar o dispositivo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>O sinal foi enviado, mas ninguem veio...</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p></p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você envia um sinal de socorro e aguarda ajuda. No entanto, você é capturado por uma raça alienígena. O que você faz?
+
+                .</p>
+            <button class="btn-proximo" data-proximo="8">Tentar escapar.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você decide lutar e, após uma intensa batalha, você consegue derrotar os piratas. No entanto, sua nave ficou danificada. O que você faz?
+
+                .</p>
+            <button class="btn-proximo" data-proximo="9">Procurar um planeta próximo para pousar</button>
+            <button class="btn-proximo" data-proximo="10">Tentar enviar um sinal de socorro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide negociar com os piratas e descobre que eles estão atrás do mesmo sinal que você. Agora, vocês têm um inimigo em comum: uma facção alienígena que quer dominar a galáxia. O que você faz?
+
+            </p>
+            <button class="btn-proximo" data-proximo="7">Unir forças com os piratas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p> Você se une aos piratas e, juntos, formam uma estratégia para enfrentar a facção alienígena. Após uma intensa batalha, vocês derrotam o inimigo e descobrem o destino da civilização perdida. Você ganha!
+
+                .</p>
+            <button class="btn-proximo" data-proximo="11">Você se torna um herói intergaláctico e é celebrado por sua coragem</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você decide seguir sozinho e acaba sendo capturado pela facção alienígena. Eles revelam que conhecem o destino da civilização, mas você não pode escapar. Você perde!
+
+            </p>
+            <button class="btn-proximo" data-proximo="12">Você é levado como prisioneiro e a verdade sobre a civilização permanece perdida</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você é levado como prisioneiro e a verdade sobre a civilização permanece perdida</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você tenta se comunicar com outras naves e acaba fazendo contato com um aliado inesperado. Juntos, vocês desvendam o mistério da civilização perdida.
+
+            </p>
+            <button class="btn-proximo" data-proximo="11">Você se torna um defensor da paz entre as raças, promovendo o entendimento e a união.
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
